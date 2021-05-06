@@ -1,45 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title> Typing Effect </title>
-<link rel="stylesheet" href="style_nav.css"/>
+<title> Lingjie Feng </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
+<!-- Styles -->
+<link rel="stylesheet" href="static/css/style.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- Scripts -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="main.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="static/js/main.js"></script>
 </head>
-<body onload="homePageActivate()">
-    <!--Idea from: https://codepen.io/dgknca/pen/ExYGWJw-->
-<nav class="navigation-tab" id="nav_container">  
-    <div class="navigation-tab-item active">
-        <i class="fas fa-book navigation-tab__icon"></i>
-        <span class="navigation-tab__txt">Home</span>
-    </div>
-    <div class="navigation-tab-item">
-        <i class="fas fa-exclamation-triangle navigation-tab__icon"></i>
-        <span class="navigation-tab__txt">Interests</span>
-    </div>
-    <div class="navigation-tab-item">
-        <i class="fas fa-lock navigation-tab__icon"></i>
-        <span class="navigation-tab__txt">Projects</span>
-    </div>
-    <div class="navigation-tab-item">
-        <i class="fas fa-user-md navigation-tab__icon"></i>
-        <span class="navigation-tab__txt">Experiences</span>
-    </div>
-    <div class="navigation-tab-item">
-        <i class="fas fa-images navigation-tab__icon"></i>
-        <span class="navigation-tab__txt">Contact</span>
-    </div>
-    <div class="navigation-tab-item">
-        <i class="fas fa-shield-alt navigation-tab__icon"></i>
-        <span class="navigation-tab__txt">Blocking</span>
-    </div>
-    <div class="navigation-tab-item">
-        <i class="fas fa-compass navigation-tab__icon"></i>
-        <span class="navigation-tab__txt">Tracking</span>
-    </div>
-    <div class="navigation-tab-overlay"></div>
-</nav>
 
-    <h1> home page </h1>
+<body onload="homePageActivate()">
+      <!-- Nagivation -->
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="#">Logo</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Nagivation End -->
+        
+      <!-- Doors -->
+      <div class="container text-center">    
+        <div class="row">
+          <!-- Door 1 -->
+          <div class="col-sm-4">
+            <img src="static/images/door1.png" class="img-responsive door door1" alt="Door of my interets">
+          </div>
+          <!-- Door 1 End -->
+
+          <!-- Door 2 -->
+          <div class="col-sm-4"> 
+            <img src="static/images/door2.png" class="img-responsive door door2" alt="Door of my projects and experiences">   
+          </div>
+          <!-- Door 2 End -->
+
+          <!-- Door 3 -->
+          <div class="col-sm-4"> 
+            <img src="static/images/door3.png" class="img-responsive door door3" alt="Door of contact me">  
+          </div>
+          <!-- Door 3 End -->
+        </div>
+      </div><br>
+      <!-- Doors End -->
+      
+      <!-- Footer -->
+      <div class="footer">
+        <p>Footer</p>
+      </div>
+      <!-- Footer End -->
+   
 </html>
