@@ -3,7 +3,7 @@
 https://lingjie-feng.github.io/pui_final_project/
 
 
-### Reference: 
+### References: 
 
 home page grid: https://www.w3schools.com/bootstrap/bootstrap_templates.asp
 
