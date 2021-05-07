@@ -1,7 +1,56 @@
 /* navigation bar */
+.nav-custom-text a{
+    color: rgb(133, 133, 133);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+#nav-about:hover a, 
+#nav-projects:hover a, 
+#nav-contact:hover a {
+    color:white;
+    font-weight: bold;
+}
+
+#nav-about:hover a{
+    background-color: #FF8585;
+}
+
+#nav-projects:hover a{
+    background-color: #86C1F9;
+}
+
+#nav-contact:hover a{
+    background-color: #FBC067;
+}
+
+#nav-resume:hover a{
+    font-weight: bold;
+    color:#1F9515;
+}
+
+#svg-envelope-animate {
+    height: auto;
+    width: 50%;
+    margin-left: 0.3em;
+  }
+  
+  #svg-envelope-animate #paper {
+    transform: translateY(10px) translateX(3px);
+    transition: transform 0.5s;
+    transition-timing-function: ease-out;
+  }
+  #svg-envelope-animate:hover #paper {
+    transform: translateY(3px) translateX(3px);
+  }
+  #svg-envelope-animate .svg-envolope-color {
+    fill: #4e4e4e;
+  }
 
 
- 
+
 /* home page: doors */
 .col-sm-4 {
     margin-top: 8em;
@@ -44,7 +93,7 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(168, 168, 168);
+    background-color: rgb(200, 200, 200);
     color: white;
     text-align: center;
 }
