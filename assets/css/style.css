@@ -218,30 +218,35 @@
 
 /* CONTACT ME PAGE */
 .contact-bg {
-    margin-top: 8em;
     width: 50%;
 }
 
 /* Centered text */
 .centered-text {
   position: absolute;
-  top: 43%;
+  z-index: 100;
+  top: 40%;
   left: 53%;
   transform: translate(-50%, -50%);
 }
 
 .centered-text p{
-  font-size: 30px;
   color: gray;
-}
-
-#followme {
-  width: 30%;
-  margin: auto;
+  font-size: 2vw;
 }
 
 #linkedin:hover,
 #github:hover,
 #facebook:hover {
   cursor: pointer;
+}
+
+.list-inline img{
+    width: 70%
+}
+
+#followme {
+    width: 25%;
+    margin-top: 2%;
+    margin-left: 42%;
 }
