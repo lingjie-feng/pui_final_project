@@ -1,9 +1,10 @@
-Website link: 
+## Website link: 
 
 https://lingjie-feng.github.io/pui_final_project/
 
 
-Reference: 
+### Reference: 
+
 home page grid: https://www.w3schools.com/bootstrap/bootstrap_templates.asp
 
 door image transition animation: https://www.youtube.com/watch?v=V8eAyZjfuZc
